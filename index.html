@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>validar Cedula </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Validar tu  Cedula</h1>
+
+  <form id="modulo10-form" onsubmit="return validarCedula() "><!-- conectando la funcion-->
+    <label for="cedula">Ingrese su cedula:</label>
+    <input type="text" id="cedula" name="cedula"  maxlength="11" size="10"><br><br>
+    <div id="resultado"></div><!-- enlazando los resultado con la script-->
+    <input type="submit" value="Enviar">
+  
+    <input type="Reset" value="Borrar">
+  </form>
+  <!-- llamando el jvascript-->
+  <script src="script.js"></script>
+</body>
+</html>
